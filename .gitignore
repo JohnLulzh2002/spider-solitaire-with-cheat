@@ -1,0 +1,47 @@
+# 构建产物
+bin/
+obj/
+dist/
+out/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+*.sln.iml
+
+# 测试结果与覆盖率
+[Tt]est[Rr]esult*/
+[Cc]overage/
+*.coverage
+*.coveragexml
+
+# NuGet
+*.nupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+
+# 发布临时文件
+*.publish.xml
+*.pubxml
+!**/PublishProfiles/*.pubxml
+.publishsettings
+
+# 系统文件
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# 日志与临时文件
+*.log
+*.tmp
+*.cache
